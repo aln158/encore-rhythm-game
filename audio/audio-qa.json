@@ -1,0 +1,2227 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "label": "all-original-source-events-rendered-exactly-once",
+      "pass": true
+    },
+    {
+      "label": "all-source-onsets-and-durations-exact",
+      "pass": true
+    },
+    {
+      "label": "public-chart-source-combo-bytes-unchanged",
+      "pass": true
+    },
+    {
+      "label": "rhythm-finite-and-frame-aligned",
+      "pass": true
+    },
+    {
+      "label": "rhythm-no-clipping",
+      "pass": true
+    },
+    {
+      "label": "rhythm-loop-boundary-bounded",
+      "pass": true
+    },
+    {
+      "label": "bass-finite-and-frame-aligned",
+      "pass": true
+    },
+    {
+      "label": "bass-no-clipping",
+      "pass": true
+    },
+    {
+      "label": "bass-loop-boundary-bounded",
+      "pass": true
+    },
+    {
+      "label": "drums-finite-and-frame-aligned",
+      "pass": true
+    },
+    {
+      "label": "drums-no-clipping",
+      "pass": true
+    },
+    {
+      "label": "drums-loop-boundary-bounded",
+      "pass": true
+    },
+    {
+      "label": "lead-finite-and-frame-aligned",
+      "pass": true
+    },
+    {
+      "label": "lead-no-clipping",
+      "pass": true
+    },
+    {
+      "label": "lead-loop-boundary-bounded",
+      "pass": true
+    },
+    {
+      "label": "all15-nonempty-role-combinations-have-headroom",
+      "pass": true
+    },
+    {
+      "label": "guitar-left-right-not-identical",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-00036",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-00074",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-00099",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-00243",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-00287",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-00317",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-00479",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-00524",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-00555",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-00719",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-00764",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-00795",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-00952",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-00990",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-01015",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-01159",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-01203",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-01233",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-01395",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-01440",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-01471",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-rhythm-01635",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-lead-01680",
+      "pass": true
+    },
+    {
+      "label": "no-ornament-overlaps-bass-01711",
+      "pass": true
+    },
+    {
+      "label": "all268-chart-heads-have-local-audio-energy",
+      "pass": true
+    },
+    {
+      "label": "all24-hold-tails-audible-energy",
+      "pass": true
+    }
+  ],
+  "stemStats": {
+    "rhythm": {
+      "rms": 0.06870682537555695,
+      "peak": 0.4323562681674957,
+      "leftRightCorrelation": 0.7491580713110155,
+      "boundaryStep": [
+        0.018650488927960396,
+        0.0013381242752075195
+      ],
+      "ordinaryStepP99": [
+        0.04358547925949097,
+        0.044536296278238297
+      ]
+    },
+    "bass": {
+      "rms": 0.04403739050030708,
+      "peak": 0.22259832918643951,
+      "leftRightCorrelation": 1,
+      "boundaryStep": [
+        0.0012175366282463074,
+        0.0012175366282463074
+      ],
+      "ordinaryStepP99": [
+        0.008276581764221191,
+        0.008276581764221191
+      ]
+    },
+    "drums": {
+      "rms": 0.12577176094055176,
+      "peak": 0.5787159204483032,
+      "leftRightCorrelation": 0.9903875335419811,
+      "boundaryStep": [
+        0.005077843554317951,
+        0.007133339531719685
+      ],
+      "ordinaryStepP99": [
+        0.24143612384796143,
+        0.22191065549850464
+      ]
+    },
+    "lead": {
+      "rms": 0.03776232898235321,
+      "peak": 0.27589303255081177,
+      "leftRightCorrelation": 0.9668968748434977,
+      "boundaryStep": [
+        0.0167684406042099,
+        0.021281223744153976
+      ],
+      "ordinaryStepP99": [
+        0.07063999772071838,
+        0.06578324735164642
+      ]
+    }
+  },
+  "subsets": [
+    {
+      "roles": [
+        "rhythm"
+      ],
+      "peak": 0.4323562681674957,
+      "rms": 0.06870682537555695
+    },
+    {
+      "roles": [
+        "bass"
+      ],
+      "peak": 0.22259832918643951,
+      "rms": 0.04403739050030708
+    },
+    {
+      "roles": [
+        "drums"
+      ],
+      "peak": 0.5787159204483032,
+      "rms": 0.12577176094055176
+    },
+    {
+      "roles": [
+        "lead"
+      ],
+      "peak": 0.27589303255081177,
+      "rms": 0.03776232898235321
+    },
+    {
+      "roles": [
+        "rhythm",
+        "bass"
+      ],
+      "peak": 0.4865497052669525,
+      "rms": 0.08117158710956573
+    },
+    {
+      "roles": [
+        "rhythm",
+        "drums"
+      ],
+      "peak": 0.8519635796546936,
+      "rms": 0.14257314801216125
+    },
+    {
+      "roles": [
+        "rhythm",
+        "lead"
+      ],
+      "peak": 0.5474942326545715,
+      "rms": 0.07851847261190414
+    },
+    {
+      "roles": [
+        "bass",
+        "drums"
+      ],
+      "peak": 0.6752403974533081,
+      "rms": 0.13084599375724792
+    },
+    {
+      "roles": [
+        "bass",
+        "lead"
+      ],
+      "peak": 0.3688369393348694,
+      "rms": 0.057931751012802124
+    },
+    {
+      "roles": [
+        "drums",
+        "lead"
+      ],
+      "peak": 0.6964617371559143,
+      "rms": 0.13131622970104218
+    },
+    {
+      "roles": [
+        "rhythm",
+        "bass",
+        "drums"
+      ],
+      "peak": 0.8670363426208496,
+      "rms": 0.146826833486557
+    },
+    {
+      "roles": [
+        "rhythm",
+        "bass",
+        "lead"
+      ],
+      "peak": 0.5853814482688904,
+      "rms": 0.0895775705575943
+    },
+    {
+      "roles": [
+        "rhythm",
+        "drums",
+        "lead"
+      ],
+      "peak": 0.9199999570846558,
+      "rms": 0.14755012094974518
+    },
+    {
+      "roles": [
+        "bass",
+        "drums",
+        "lead"
+      ],
+      "peak": 0.7509081363677979,
+      "rms": 0.13615024089813232
+    },
+    {
+      "roles": [
+        "rhythm",
+        "bass",
+        "drums",
+        "lead"
+      ],
+      "peak": 0.8743762373924255,
+      "rms": 0.15163403749465942
+    }
+  ],
+  "onsetEnergy": [
+    {
+      "id": "bass-00000",
+      "performer": "bass",
+      "time": 0,
+      "rms40ms": 0.05609162524342537
+    },
+    {
+      "id": "drums-00014",
+      "performer": "drums",
+      "time": 0.46875,
+      "rms40ms": 0.16923777759075165
+    },
+    {
+      "id": "bass-00003",
+      "performer": "bass",
+      "time": 0.9375,
+      "rms40ms": 0.04552854597568512
+    },
+    {
+      "id": "lead-00025",
+      "performer": "lead",
+      "time": 1.40625,
+      "rms40ms": 0.04013684019446373
+    },
+    {
+      "id": "bass-00026",
+      "performer": "bass",
+      "time": 1.875,
+      "rms40ms": 0.0455227866768837
+    },
+    {
+      "id": "drums-00040",
+      "performer": "drums",
+      "time": 2.34375,
+      "rms40ms": 0.16499872505664825
+    },
+    {
+      "id": "bass-00029",
+      "performer": "bass",
+      "time": 2.8125,
+      "rms40ms": 0.04552219435572624
+    },
+    {
+      "id": "rhythm-00036",
+      "performer": "rhythm",
+      "time": 3.28125,
+      "rms40ms": 0.07135894894599915
+    },
+    {
+      "id": "bass-00050",
+      "performer": "bass",
+      "time": 3.75,
+      "rms40ms": 0.04395356401801109
+    },
+    {
+      "id": "drums-00064",
+      "performer": "drums",
+      "time": 4.21875,
+      "rms40ms": 0.16499872505664825
+    },
+    {
+      "id": "bass-00053",
+      "performer": "bass",
+      "time": 4.6875,
+      "rms40ms": 0.03921535983681679
+    },
+    {
+      "id": "lead-00074",
+      "performer": "lead",
+      "time": 5.15625,
+      "rms40ms": 0.039618782699108124
+    },
+    {
+      "id": "bass-00075",
+      "performer": "bass",
+      "time": 5.625,
+      "rms40ms": 0.03612181171774864
+    },
+    {
+      "id": "drums-00089",
+      "performer": "drums",
+      "time": 6.09375,
+      "rms40ms": 0.16830992698669434
+    },
+    {
+      "id": "bass-00078",
+      "performer": "bass",
+      "time": 6.5625,
+      "rms40ms": 0.06469733268022537
+    },
+    {
+      "id": "rhythm-00085",
+      "performer": "rhythm",
+      "time": 7.03125,
+      "rms40ms": 0.07025554776191711
+    },
+    {
+      "id": "bass-00099",
+      "performer": "bass",
+      "time": 7.5,
+      "rms40ms": 0.05464367941021919
+    },
+    {
+      "id": "drums-00113",
+      "performer": "drums",
+      "time": 7.96875,
+      "rms40ms": 0.16830992698669434
+    },
+    {
+      "id": "bass-00102",
+      "performer": "bass",
+      "time": 8.4375,
+      "rms40ms": 0.05997730419039726
+    },
+    {
+      "id": "lead-00123",
+      "performer": "lead",
+      "time": 8.90625,
+      "rms40ms": 0.0391671359539032
+    },
+    {
+      "id": "bass-00124",
+      "performer": "bass",
+      "time": 9.375,
+      "rms40ms": 0.07294798642396927
+    },
+    {
+      "id": "drums-00138",
+      "performer": "drums",
+      "time": 9.84375,
+      "rms40ms": 0.15748873353004456
+    },
+    {
+      "id": "bass-00127",
+      "performer": "bass",
+      "time": 10.3125,
+      "rms40ms": 0.03925500810146332
+    },
+    {
+      "id": "rhythm-00134",
+      "performer": "rhythm",
+      "time": 10.78125,
+      "rms40ms": 0.06902086734771729
+    },
+    {
+      "id": "bass-00148",
+      "performer": "bass",
+      "time": 11.25,
+      "rms40ms": 0.043724969029426575
+    },
+    {
+      "id": "drums-00162",
+      "performer": "drums",
+      "time": 11.71875,
+      "rms40ms": 0.15748873353004456
+    },
+    {
+      "id": "bass-00151",
+      "performer": "bass",
+      "time": 12.1875,
+      "rms40ms": 0.0405997671186924
+    },
+    {
+      "id": "lead-00172",
+      "performer": "lead",
+      "time": 12.65625,
+      "rms40ms": 0.038306254893541336
+    },
+    {
+      "id": "bass-00173",
+      "performer": "bass",
+      "time": 13.125,
+      "rms40ms": 0.05963677912950516
+    },
+    {
+      "id": "drums-00187",
+      "performer": "drums",
+      "time": 13.59375,
+      "rms40ms": 0.16499872505664825
+    },
+    {
+      "id": "bass-00176",
+      "performer": "bass",
+      "time": 14.0625,
+      "rms40ms": 0.04736079275608063
+    },
+    {
+      "id": "rhythm-00183",
+      "performer": "rhythm",
+      "time": 14.53125,
+      "rms40ms": 0.07652357965707779
+    },
+    {
+      "id": "bass-00200",
+      "performer": "bass",
+      "time": 15,
+      "rms40ms": 0.05645257607102394
+    },
+    {
+      "id": "duet-drums-00214",
+      "performer": "drums",
+      "time": 15,
+      "rms40ms": 0.24049045145511627
+    },
+    {
+      "id": "drums-00218",
+      "performer": "drums",
+      "time": 15.46875,
+      "rms40ms": 0.20852723717689514
+    },
+    {
+      "id": "bass-00203",
+      "performer": "bass",
+      "time": 15.9375,
+      "rms40ms": 0.04465639591217041
+    },
+    {
+      "id": "lead-00229",
+      "performer": "lead",
+      "time": 16.40625,
+      "rms40ms": 0.07749383896589279
+    },
+    {
+      "id": "bass-00231",
+      "performer": "bass",
+      "time": 16.875,
+      "rms40ms": 0.050050944089889526
+    },
+    {
+      "id": "drums-00249",
+      "performer": "drums",
+      "time": 17.34375,
+      "rms40ms": 0.19692252576351166
+    },
+    {
+      "id": "bass-00234",
+      "performer": "bass",
+      "time": 17.8125,
+      "rms40ms": 0.04466261714696884
+    },
+    {
+      "id": "rhythm-00243",
+      "performer": "rhythm",
+      "time": 18.28125,
+      "rms40ms": 0.10872887074947357
+    },
+    {
+      "id": "bass-00259",
+      "performer": "bass",
+      "time": 18.75,
+      "rms40ms": 0.04596645012497902
+    },
+    {
+      "id": "drums-00277",
+      "performer": "drums",
+      "time": 19.21875,
+      "rms40ms": 0.20497079193592072
+    },
+    {
+      "id": "bass-00262",
+      "performer": "bass",
+      "time": 19.6875,
+      "rms40ms": 0.038509707897901535
+    },
+    {
+      "id": "lead-00287",
+      "performer": "lead",
+      "time": 20.15625,
+      "rms40ms": 0.06293219327926636
+    },
+    {
+      "id": "bass-00289",
+      "performer": "bass",
+      "time": 20.625,
+      "rms40ms": 0.036662764847278595
+    },
+    {
+      "id": "drums-00307",
+      "performer": "drums",
+      "time": 21.09375,
+      "rms40ms": 0.2049691379070282
+    },
+    {
+      "id": "bass-00292",
+      "performer": "bass",
+      "time": 21.5625,
+      "rms40ms": 0.06347869336605072
+    },
+    {
+      "id": "rhythm-00301",
+      "performer": "rhythm",
+      "time": 22.03125,
+      "rms40ms": 0.1072126254439354
+    },
+    {
+      "id": "bass-00317",
+      "performer": "bass",
+      "time": 22.5,
+      "rms40ms": 0.05385376885533333
+    },
+    {
+      "id": "drums-00335",
+      "performer": "drums",
+      "time": 22.96875,
+      "rms40ms": 0.20755663514137268
+    },
+    {
+      "id": "bass-00320",
+      "performer": "bass",
+      "time": 23.4375,
+      "rms40ms": 0.058926451951265335
+    },
+    {
+      "id": "lead-00345",
+      "performer": "lead",
+      "time": 23.90625,
+      "rms40ms": 0.0709344819188118
+    },
+    {
+      "id": "bass-00347",
+      "performer": "bass",
+      "time": 24.375,
+      "rms40ms": 0.06659276783466339
+    },
+    {
+      "id": "drums-00365",
+      "performer": "drums",
+      "time": 24.84375,
+      "rms40ms": 0.20755799114704132
+    },
+    {
+      "id": "bass-00350",
+      "performer": "bass",
+      "time": 25.3125,
+      "rms40ms": 0.03847077861428261
+    },
+    {
+      "id": "rhythm-00359",
+      "performer": "rhythm",
+      "time": 25.78125,
+      "rms40ms": 0.10537894070148468
+    },
+    {
+      "id": "bass-00375",
+      "performer": "bass",
+      "time": 26.25,
+      "rms40ms": 0.04588155075907707
+    },
+    {
+      "id": "drums-00393",
+      "performer": "drums",
+      "time": 26.71875,
+      "rms40ms": 0.19691917300224304
+    },
+    {
+      "id": "bass-00378",
+      "performer": "bass",
+      "time": 27.1875,
+      "rms40ms": 0.03982054069638252
+    },
+    {
+      "id": "lead-00403",
+      "performer": "lead",
+      "time": 27.65625,
+      "rms40ms": 0.0698373094201088
+    },
+    {
+      "id": "bass-00405",
+      "performer": "bass",
+      "time": 28.125,
+      "rms40ms": 0.05942204222083092
+    },
+    {
+      "id": "drums-00423",
+      "performer": "drums",
+      "time": 28.59375,
+      "rms40ms": 0.19692252576351166
+    },
+    {
+      "id": "bass-00408",
+      "performer": "bass",
+      "time": 29.0625,
+      "rms40ms": 0.04651350900530815
+    },
+    {
+      "id": "rhythm-00417",
+      "performer": "rhythm",
+      "time": 29.53125,
+      "rms40ms": 0.11643332988023758
+    },
+    {
+      "id": "bass-00436",
+      "performer": "bass",
+      "time": 30,
+      "rms40ms": 0.05523688346147537
+    },
+    {
+      "id": "duet-drums-00450",
+      "performer": "drums",
+      "time": 30,
+      "rms40ms": 0.25373029708862305
+    },
+    {
+      "id": "drums-00454",
+      "performer": "drums",
+      "time": 30.46875,
+      "rms40ms": 0.21472954750061035
+    },
+    {
+      "id": "bass-00439",
+      "performer": "bass",
+      "time": 30.9375,
+      "rms40ms": 0.04553530365228653
+    },
+    {
+      "id": "lead-00465",
+      "performer": "lead",
+      "time": 31.40625,
+      "rms40ms": 0.07255531847476959
+    },
+    {
+      "id": "bass-00467",
+      "performer": "bass",
+      "time": 31.875,
+      "rms40ms": 0.04395296797156334
+    },
+    {
+      "id": "drums-00485",
+      "performer": "drums",
+      "time": 32.34375,
+      "rms40ms": 0.2153778374195099
+    },
+    {
+      "id": "bass-00470",
+      "performer": "bass",
+      "time": 32.8125,
+      "rms40ms": 0.03921535983681679
+    },
+    {
+      "id": "rhythm-00479",
+      "performer": "rhythm",
+      "time": 33.28125,
+      "rms40ms": 0.11098171025514603
+    },
+    {
+      "id": "bass-00496",
+      "performer": "bass",
+      "time": 33.75,
+      "rms40ms": 0.05010627210140228
+    },
+    {
+      "id": "drums-00514",
+      "performer": "drums",
+      "time": 34.21875,
+      "rms40ms": 0.21371018886566162
+    },
+    {
+      "id": "bass-00499",
+      "performer": "bass",
+      "time": 34.6875,
+      "rms40ms": 0.07647629827260971
+    },
+    {
+      "id": "lead-00524",
+      "performer": "lead",
+      "time": 35.15625,
+      "rms40ms": 0.06866520643234253
+    },
+    {
+      "id": "bass-00526",
+      "performer": "bass",
+      "time": 35.625,
+      "rms40ms": 0.06881985068321228
+    },
+    {
+      "id": "drums-00544",
+      "performer": "drums",
+      "time": 36.09375,
+      "rms40ms": 0.21371157467365265
+    },
+    {
+      "id": "bass-00529",
+      "performer": "bass",
+      "time": 36.5625,
+      "rms40ms": 0.06469010561704636
+    },
+    {
+      "id": "rhythm-00538",
+      "performer": "rhythm",
+      "time": 37.03125,
+      "rms40ms": 0.1134907677769661
+    },
+    {
+      "id": "bass-00555",
+      "performer": "bass",
+      "time": 37.5,
+      "rms40ms": 0.05103868246078491
+    },
+    {
+      "id": "drums-00573",
+      "performer": "drums",
+      "time": 37.96875,
+      "rms40ms": 0.20475633442401886
+    },
+    {
+      "id": "bass-00558",
+      "performer": "bass",
+      "time": 38.4375,
+      "rms40ms": 0.04825941473245621
+    },
+    {
+      "id": "lead-00583",
+      "performer": "lead",
+      "time": 38.90625,
+      "rms40ms": 0.07788602262735367
+    },
+    {
+      "id": "bass-00585",
+      "performer": "bass",
+      "time": 39.375,
+      "rms40ms": 0.049333103001117706
+    },
+    {
+      "id": "drums-00603",
+      "performer": "drums",
+      "time": 39.84375,
+      "rms40ms": 0.20475925505161285
+    },
+    {
+      "id": "bass-00588",
+      "performer": "bass",
+      "time": 40.3125,
+      "rms40ms": 0.0405951589345932
+    },
+    {
+      "id": "rhythm-00597",
+      "performer": "rhythm",
+      "time": 40.78125,
+      "rms40ms": 0.1092955619096756
+    },
+    {
+      "id": "bass-00614",
+      "performer": "bass",
+      "time": 41.25,
+      "rms40ms": 0.044313009828329086
+    },
+    {
+      "id": "drums-00632",
+      "performer": "drums",
+      "time": 41.71875,
+      "rms40ms": 0.21537818014621735
+    },
+    {
+      "id": "bass-00617",
+      "performer": "bass",
+      "time": 42.1875,
+      "rms40ms": 0.03921535983681679
+    },
+    {
+      "id": "lead-00642",
+      "performer": "lead",
+      "time": 42.65625,
+      "rms40ms": 0.07289084047079086
+    },
+    {
+      "id": "bass-00644",
+      "performer": "bass",
+      "time": 43.125,
+      "rms40ms": 0.059535399079322815
+    },
+    {
+      "id": "drums-00662",
+      "performer": "drums",
+      "time": 43.59375,
+      "rms40ms": 0.21537718176841736
+    },
+    {
+      "id": "bass-00647",
+      "performer": "bass",
+      "time": 44.0625,
+      "rms40ms": 0.04736079275608063
+    },
+    {
+      "id": "rhythm-00656",
+      "performer": "rhythm",
+      "time": 44.53125,
+      "rms40ms": 0.12195759266614914
+    },
+    {
+      "id": "bass-00676",
+      "performer": "bass",
+      "time": 45,
+      "rms40ms": 0.05647910013794899
+    },
+    {
+      "id": "duet-drums-00690",
+      "performer": "drums",
+      "time": 45,
+      "rms40ms": 0.2575331926345825
+    },
+    {
+      "id": "drums-00694",
+      "performer": "drums",
+      "time": 45.46875,
+      "rms40ms": 0.2040729969739914
+    },
+    {
+      "id": "bass-00679",
+      "performer": "bass",
+      "time": 45.9375,
+      "rms40ms": 0.05005764588713646
+    },
+    {
+      "id": "lead-00705",
+      "performer": "lead",
+      "time": 46.40625,
+      "rms40ms": 0.07571248710155487
+    },
+    {
+      "id": "bass-00707",
+      "performer": "bass",
+      "time": 46.875,
+      "rms40ms": 0.045918092131614685
+    },
+    {
+      "id": "drums-00725",
+      "performer": "drums",
+      "time": 47.34375,
+      "rms40ms": 0.20699267089366913
+    },
+    {
+      "id": "bass-00710",
+      "performer": "bass",
+      "time": 47.8125,
+      "rms40ms": 0.03844119608402252
+    },
+    {
+      "id": "rhythm-00719",
+      "performer": "rhythm",
+      "time": 48.28125,
+      "rms40ms": 0.1099606454372406
+    },
+    {
+      "id": "bass-00736",
+      "performer": "bass",
+      "time": 48.75,
+      "rms40ms": 0.04688314348459244
+    },
+    {
+      "id": "drums-00754",
+      "performer": "drums",
+      "time": 49.21875,
+      "rms40ms": 0.20304344594478607
+    },
+    {
+      "id": "bass-00739",
+      "performer": "bass",
+      "time": 49.6875,
+      "rms40ms": 0.07604433596134186
+    },
+    {
+      "id": "lead-00764",
+      "performer": "lead",
+      "time": 50.15625,
+      "rms40ms": 0.07627930492162704
+    },
+    {
+      "id": "bass-00766",
+      "performer": "bass",
+      "time": 50.625,
+      "rms40ms": 0.06268159300088882
+    },
+    {
+      "id": "drums-00784",
+      "performer": "drums",
+      "time": 51.09375,
+      "rms40ms": 0.20304344594478607
+    },
+    {
+      "id": "bass-00769",
+      "performer": "bass",
+      "time": 51.5625,
+      "rms40ms": 0.058204181492328644
+    },
+    {
+      "id": "rhythm-00778",
+      "performer": "rhythm",
+      "time": 52.03125,
+      "rms40ms": 0.11244843900203705
+    },
+    {
+      "id": "bass-00795",
+      "performer": "bass",
+      "time": 52.5,
+      "rms40ms": 0.04801565036177635
+    },
+    {
+      "id": "drums-00813",
+      "performer": "drums",
+      "time": 52.96875,
+      "rms40ms": 0.19387587904930115
+    },
+    {
+      "id": "bass-00798",
+      "performer": "bass",
+      "time": 53.4375,
+      "rms40ms": 0.05097297579050064
+    },
+    {
+      "id": "lead-00823",
+      "performer": "lead",
+      "time": 53.90625,
+      "rms40ms": 0.07667353004217148
+    },
+    {
+      "id": "bass-00825",
+      "performer": "bass",
+      "time": 54.375,
+      "rms40ms": 0.054220132529735565
+    },
+    {
+      "id": "drums-00843",
+      "performer": "drums",
+      "time": 54.84375,
+      "rms40ms": 0.19387587904930115
+    },
+    {
+      "id": "bass-00828",
+      "performer": "bass",
+      "time": 55.3125,
+      "rms40ms": 0.03624109551310539
+    },
+    {
+      "id": "rhythm-00837",
+      "performer": "rhythm",
+      "time": 55.78125,
+      "rms40ms": 0.10829474031925201
+    },
+    {
+      "id": "bass-00854",
+      "performer": "bass",
+      "time": 56.25,
+      "rms40ms": 0.04443598911166191
+    },
+    {
+      "id": "drums-00872",
+      "performer": "drums",
+      "time": 56.71875,
+      "rms40ms": 0.20699267089366913
+    },
+    {
+      "id": "bass-00857",
+      "performer": "bass",
+      "time": 57.1875,
+      "rms40ms": 0.03996551036834717
+    },
+    {
+      "id": "duet-rhythm-00866",
+      "performer": "rhythm",
+      "time": 57.65625,
+      "rms40ms": 0.10418517142534256
+    },
+    {
+      "id": "lead-00882",
+      "performer": "lead",
+      "time": 57.65625,
+      "rms40ms": 0.07461985945701599
+    },
+    {
+      "id": "bass-00884",
+      "performer": "bass",
+      "time": 58.125,
+      "rms40ms": 0.05569303780794144
+    },
+    {
+      "id": "drums-00902",
+      "performer": "drums",
+      "time": 58.59375,
+      "rms40ms": 0.20699267089366913
+    },
+    {
+      "id": "bass-00887",
+      "performer": "bass",
+      "time": 59.0625,
+      "rms40ms": 0.047918107360601425
+    },
+    {
+      "id": "rhythm-00896",
+      "performer": "rhythm",
+      "time": 59.53125,
+      "rms40ms": 0.12085231393575668
+    },
+    {
+      "id": "bass-00916",
+      "performer": "bass",
+      "time": 60,
+      "rms40ms": 0.060681186616420746
+    },
+    {
+      "id": "duet-drums-00927",
+      "performer": "drums",
+      "time": 60,
+      "rms40ms": 0.2141781598329544
+    },
+    {
+      "id": "drums-00930",
+      "performer": "drums",
+      "time": 60.46875,
+      "rms40ms": 0.15062406659126282
+    },
+    {
+      "id": "bass-00919",
+      "performer": "bass",
+      "time": 60.9375,
+      "rms40ms": 0.07082749158143997
+    },
+    {
+      "id": "lead-00941",
+      "performer": "lead",
+      "time": 61.40625,
+      "rms40ms": 0.04099574685096741
+    },
+    {
+      "id": "bass-00942",
+      "performer": "bass",
+      "time": 61.875,
+      "rms40ms": 0.07081105560064316
+    },
+    {
+      "id": "drums-00956",
+      "performer": "drums",
+      "time": 62.34375,
+      "rms40ms": 0.16070348024368286
+    },
+    {
+      "id": "bass-00945",
+      "performer": "bass",
+      "time": 62.8125,
+      "rms40ms": 0.07079584151506424
+    },
+    {
+      "id": "rhythm-00952",
+      "performer": "rhythm",
+      "time": 63.28125,
+      "rms40ms": 0.06148428097367287
+    },
+    {
+      "id": "bass-00966",
+      "performer": "bass",
+      "time": 63.75,
+      "rms40ms": 0.059043291956186295
+    },
+    {
+      "id": "drums-00980",
+      "performer": "drums",
+      "time": 64.21875,
+      "rms40ms": 0.16070348024368286
+    },
+    {
+      "id": "bass-00969",
+      "performer": "bass",
+      "time": 64.6875,
+      "rms40ms": 0.04205601289868355
+    },
+    {
+      "id": "lead-00990",
+      "performer": "lead",
+      "time": 65.15625,
+      "rms40ms": 0.03578798100352287
+    },
+    {
+      "id": "bass-00991",
+      "performer": "bass",
+      "time": 65.625,
+      "rms40ms": 0.04065292328596115
+    },
+    {
+      "id": "drums-01005",
+      "performer": "drums",
+      "time": 66.09375,
+      "rms40ms": 0.15033771097660065
+    },
+    {
+      "id": "bass-00994",
+      "performer": "bass",
+      "time": 66.5625,
+      "rms40ms": 0.036265771836042404
+    },
+    {
+      "id": "rhythm-01001",
+      "performer": "rhythm",
+      "time": 67.03125,
+      "rms40ms": 0.05980532616376877
+    },
+    {
+      "id": "bass-01015",
+      "performer": "bass",
+      "time": 67.5,
+      "rms40ms": 0.04550322890281677
+    },
+    {
+      "id": "drums-01029",
+      "performer": "drums",
+      "time": 67.96875,
+      "rms40ms": 0.15033771097660065
+    },
+    {
+      "id": "bass-01018",
+      "performer": "bass",
+      "time": 68.4375,
+      "rms40ms": 0.042861517518758774
+    },
+    {
+      "id": "lead-01039",
+      "performer": "lead",
+      "time": 68.90625,
+      "rms40ms": 0.03618282824754715
+    },
+    {
+      "id": "bass-01040",
+      "performer": "bass",
+      "time": 69.375,
+      "rms40ms": 0.0358315147459507
+    },
+    {
+      "id": "drums-01054",
+      "performer": "drums",
+      "time": 69.84375,
+      "rms40ms": 0.15751463174819946
+    },
+    {
+      "id": "bass-01043",
+      "performer": "bass",
+      "time": 70.3125,
+      "rms40ms": 0.059832677245140076
+    },
+    {
+      "id": "rhythm-01050",
+      "performer": "rhythm",
+      "time": 70.78125,
+      "rms40ms": 0.06002756208181381
+    },
+    {
+      "id": "bass-01064",
+      "performer": "bass",
+      "time": 71.25,
+      "rms40ms": 0.05616757646203041
+    },
+    {
+      "id": "drums-01078",
+      "performer": "drums",
+      "time": 71.71875,
+      "rms40ms": 0.15751463174819946
+    },
+    {
+      "id": "bass-01067",
+      "performer": "bass",
+      "time": 72.1875,
+      "rms40ms": 0.04381858557462692
+    },
+    {
+      "id": "duet-rhythm-01074",
+      "performer": "rhythm",
+      "time": 72.65625,
+      "rms40ms": 0.059242699295282364
+    },
+    {
+      "id": "lead-01088",
+      "performer": "lead",
+      "time": 72.65625,
+      "rms40ms": 0.03482881560921669
+    },
+    {
+      "id": "bass-01089",
+      "performer": "bass",
+      "time": 73.125,
+      "rms40ms": 0.0478217713534832
+    },
+    {
+      "id": "drums-01103",
+      "performer": "drums",
+      "time": 73.59375,
+      "rms40ms": 0.16070348024368286
+    },
+    {
+      "id": "bass-01092",
+      "performer": "bass",
+      "time": 74.0625,
+      "rms40ms": 0.04205601289868355
+    },
+    {
+      "id": "rhythm-01099",
+      "performer": "rhythm",
+      "time": 74.53125,
+      "rms40ms": 0.06263704597949982
+    },
+    {
+      "id": "bass-01116",
+      "performer": "bass",
+      "time": 75,
+      "rms40ms": 0.0500367097556591
+    },
+    {
+      "id": "duet-drums-01130",
+      "performer": "drums",
+      "time": 75,
+      "rms40ms": 0.2374161332845688
+    },
+    {
+      "id": "drums-01134",
+      "performer": "drums",
+      "time": 75.46875,
+      "rms40ms": 0.1957147866487503
+    },
+    {
+      "id": "bass-01119",
+      "performer": "bass",
+      "time": 75.9375,
+      "rms40ms": 0.07644250243902206
+    },
+    {
+      "id": "lead-01145",
+      "performer": "lead",
+      "time": 76.40625,
+      "rms40ms": 0.06827476620674133
+    },
+    {
+      "id": "bass-01147",
+      "performer": "bass",
+      "time": 76.875,
+      "rms40ms": 0.07144434005022049
+    },
+    {
+      "id": "drums-01165",
+      "performer": "drums",
+      "time": 77.34375,
+      "rms40ms": 0.20333674550056458
+    },
+    {
+      "id": "bass-01150",
+      "performer": "bass",
+      "time": 77.8125,
+      "rms40ms": 0.07647629827260971
+    },
+    {
+      "id": "rhythm-01159",
+      "performer": "rhythm",
+      "time": 78.28125,
+      "rms40ms": 0.11005394905805588
+    },
+    {
+      "id": "bass-01175",
+      "performer": "bass",
+      "time": 78.75,
+      "rms40ms": 0.059713657945394516
+    },
+    {
+      "id": "drums-01193",
+      "performer": "drums",
+      "time": 79.21875,
+      "rms40ms": 0.2058972269296646
+    },
+    {
+      "id": "bass-01178",
+      "performer": "bass",
+      "time": 79.6875,
+      "rms40ms": 0.04552219435572624
+    },
+    {
+      "id": "lead-01203",
+      "performer": "lead",
+      "time": 80.15625,
+      "rms40ms": 0.06558232754468918
+    },
+    {
+      "id": "bass-01205",
+      "performer": "bass",
+      "time": 80.625,
+      "rms40ms": 0.04673977568745613
+    },
+    {
+      "id": "drums-01223",
+      "performer": "drums",
+      "time": 81.09375,
+      "rms40ms": 0.20589858293533325
+    },
+    {
+      "id": "bass-01208",
+      "performer": "bass",
+      "time": 81.5625,
+      "rms40ms": 0.03921535983681679
+    },
+    {
+      "id": "rhythm-01217",
+      "performer": "rhythm",
+      "time": 82.03125,
+      "rms40ms": 0.10537894070148468
+    },
+    {
+      "id": "bass-01233",
+      "performer": "bass",
+      "time": 82.5,
+      "rms40ms": 0.050876684486866
+    },
+    {
+      "id": "drums-01251",
+      "performer": "drums",
+      "time": 82.96875,
+      "rms40ms": 0.19536945223808289
+    },
+    {
+      "id": "bass-01236",
+      "performer": "bass",
+      "time": 83.4375,
+      "rms40ms": 0.046404000371694565
+    },
+    {
+      "id": "lead-01261",
+      "performer": "lead",
+      "time": 83.90625,
+      "rms40ms": 0.06479524075984955
+    },
+    {
+      "id": "bass-01263",
+      "performer": "bass",
+      "time": 84.375,
+      "rms40ms": 0.038820769637823105
+    },
+    {
+      "id": "drums-01281",
+      "performer": "drums",
+      "time": 84.84375,
+      "rms40ms": 0.1953728049993515
+    },
+    {
+      "id": "bass-01266",
+      "performer": "bass",
+      "time": 85.3125,
+      "rms40ms": 0.06469733268022537
+    },
+    {
+      "id": "rhythm-01275",
+      "performer": "rhythm",
+      "time": 85.78125,
+      "rms40ms": 0.1082288846373558
+    },
+    {
+      "id": "bass-01291",
+      "performer": "bass",
+      "time": 86.25,
+      "rms40ms": 0.05879624933004379
+    },
+    {
+      "id": "drums-01309",
+      "performer": "drums",
+      "time": 86.71875,
+      "rms40ms": 0.20333842933177948
+    },
+    {
+      "id": "bass-01294",
+      "performer": "bass",
+      "time": 87.1875,
+      "rms40ms": 0.04742411524057388
+    },
+    {
+      "id": "duet-rhythm-01303",
+      "performer": "rhythm",
+      "time": 87.65625,
+      "rms40ms": 0.107343889772892
+    },
+    {
+      "id": "lead-01319",
+      "performer": "lead",
+      "time": 87.65625,
+      "rms40ms": 0.07037448137998581
+    },
+    {
+      "id": "bass-01321",
+      "performer": "bass",
+      "time": 88.125,
+      "rms40ms": 0.05085179954767227
+    },
+    {
+      "id": "drums-01339",
+      "performer": "drums",
+      "time": 88.59375,
+      "rms40ms": 0.20333674550056458
+    },
+    {
+      "id": "bass-01324",
+      "performer": "bass",
+      "time": 89.0625,
+      "rms40ms": 0.04553530365228653
+    },
+    {
+      "id": "rhythm-01333",
+      "performer": "rhythm",
+      "time": 89.53125,
+      "rms40ms": 0.10773158073425293
+    },
+    {
+      "id": "bass-01352",
+      "performer": "bass",
+      "time": 90,
+      "rms40ms": 0.05486717447638512
+    },
+    {
+      "id": "duet-drums-01366",
+      "performer": "drums",
+      "time": 90,
+      "rms40ms": 0.264469712972641
+    },
+    {
+      "id": "drums-01370",
+      "performer": "drums",
+      "time": 90.46875,
+      "rms40ms": 0.22852705419063568
+    },
+    {
+      "id": "bass-01355",
+      "performer": "bass",
+      "time": 90.9375,
+      "rms40ms": 0.052398040890693665
+    },
+    {
+      "id": "lead-01381",
+      "performer": "lead",
+      "time": 91.40625,
+      "rms40ms": 0.08165538311004639
+    },
+    {
+      "id": "bass-01383",
+      "performer": "bass",
+      "time": 91.875,
+      "rms40ms": 0.0595628097653389
+    },
+    {
+      "id": "drums-01401",
+      "performer": "drums",
+      "time": 92.34375,
+      "rms40ms": 0.21618960797786713
+    },
+    {
+      "id": "bass-01386",
+      "performer": "bass",
+      "time": 92.8125,
+      "rms40ms": 0.04990334063768387
+    },
+    {
+      "id": "rhythm-01395",
+      "performer": "rhythm",
+      "time": 93.28125,
+      "rms40ms": 0.12617084383964539
+    },
+    {
+      "id": "bass-01412",
+      "performer": "bass",
+      "time": 93.75,
+      "rms40ms": 0.04808461293578148
+    },
+    {
+      "id": "drums-01430",
+      "performer": "drums",
+      "time": 94.21875,
+      "rms40ms": 0.22746381163597107
+    },
+    {
+      "id": "bass-01415",
+      "performer": "bass",
+      "time": 94.6875,
+      "rms40ms": 0.041662465780973434
+    },
+    {
+      "id": "lead-01440",
+      "performer": "lead",
+      "time": 95.15625,
+      "rms40ms": 0.0833628922700882
+    },
+    {
+      "id": "bass-01442",
+      "performer": "bass",
+      "time": 95.625,
+      "rms40ms": 0.04858112707734108
+    },
+    {
+      "id": "drums-01460",
+      "performer": "drums",
+      "time": 96.09375,
+      "rms40ms": 0.22746308147907257
+    },
+    {
+      "id": "bass-01445",
+      "performer": "bass",
+      "time": 96.5625,
+      "rms40ms": 0.07237440347671509
+    },
+    {
+      "id": "rhythm-01454",
+      "performer": "rhythm",
+      "time": 97.03125,
+      "rms40ms": 0.11996107548475266
+    },
+    {
+      "id": "bass-01471",
+      "performer": "bass",
+      "time": 97.5,
+      "rms40ms": 0.05191894620656967
+    },
+    {
+      "id": "drums-01489",
+      "performer": "drums",
+      "time": 97.96875,
+      "rms40ms": 0.22568805515766144
+    },
+    {
+      "id": "bass-01474",
+      "performer": "bass",
+      "time": 98.4375,
+      "rms40ms": 0.04677540808916092
+    },
+    {
+      "id": "lead-01499",
+      "performer": "lead",
+      "time": 98.90625,
+      "rms40ms": 0.07198154181241989
+    },
+    {
+      "id": "bass-01501",
+      "performer": "bass",
+      "time": 99.375,
+      "rms40ms": 0.06053716316819191
+    },
+    {
+      "id": "drums-01519",
+      "performer": "drums",
+      "time": 99.84375,
+      "rms40ms": 0.22568650543689728
+    },
+    {
+      "id": "bass-01504",
+      "performer": "bass",
+      "time": 100.3125,
+      "rms40ms": 0.03745642676949501
+    },
+    {
+      "id": "rhythm-01513",
+      "performer": "rhythm",
+      "time": 100.78125,
+      "rms40ms": 0.1112394705414772
+    },
+    {
+      "id": "bass-01530",
+      "performer": "bass",
+      "time": 101.25,
+      "rms40ms": 0.04629896953701973
+    },
+    {
+      "id": "drums-01548",
+      "performer": "drums",
+      "time": 101.71875,
+      "rms40ms": 0.21619023382663727
+    },
+    {
+      "id": "bass-01533",
+      "performer": "bass",
+      "time": 102.1875,
+      "rms40ms": 0.041666869074106216
+    },
+    {
+      "id": "duet-rhythm-01542",
+      "performer": "rhythm",
+      "time": 102.65625,
+      "rms40ms": 0.1113317608833313
+    },
+    {
+      "id": "lead-01558",
+      "performer": "lead",
+      "time": 102.65625,
+      "rms40ms": 0.09700193256139755
+    },
+    {
+      "id": "bass-01560",
+      "performer": "bass",
+      "time": 103.125,
+      "rms40ms": 0.05766438692808151
+    },
+    {
+      "id": "drums-01578",
+      "performer": "drums",
+      "time": 103.59375,
+      "rms40ms": 0.2161901295185089
+    },
+    {
+      "id": "bass-01563",
+      "performer": "bass",
+      "time": 104.0625,
+      "rms40ms": 0.04990334063768387
+    },
+    {
+      "id": "rhythm-01572",
+      "performer": "rhythm",
+      "time": 104.53125,
+      "rms40ms": 0.12651348114013672
+    },
+    {
+      "id": "bass-01592",
+      "performer": "bass",
+      "time": 105,
+      "rms40ms": 0.05800437927246094
+    },
+    {
+      "id": "duet-drums-01606",
+      "performer": "drums",
+      "time": 105,
+      "rms40ms": 0.2718806266784668
+    },
+    {
+      "id": "drums-01610",
+      "performer": "drums",
+      "time": 105.46875,
+      "rms40ms": 0.2317776381969452
+    },
+    {
+      "id": "bass-01595",
+      "performer": "bass",
+      "time": 105.9375,
+      "rms40ms": 0.05409390479326248
+    },
+    {
+      "id": "lead-01621",
+      "performer": "lead",
+      "time": 106.40625,
+      "rms40ms": 0.08211608231067657
+    },
+    {
+      "id": "bass-01623",
+      "performer": "bass",
+      "time": 106.875,
+      "rms40ms": 0.06163541227579117
+    },
+    {
+      "id": "drums-01641",
+      "performer": "drums",
+      "time": 107.34375,
+      "rms40ms": 0.2175792157649994
+    },
+    {
+      "id": "bass-01626",
+      "performer": "bass",
+      "time": 107.8125,
+      "rms40ms": 0.051633644849061966
+    },
+    {
+      "id": "rhythm-01635",
+      "performer": "rhythm",
+      "time": 108.28125,
+      "rms40ms": 0.13277839124202728
+    },
+    {
+      "id": "bass-01652",
+      "performer": "bass",
+      "time": 108.75,
+      "rms40ms": 0.04992448538541794
+    },
+    {
+      "id": "drums-01670",
+      "performer": "drums",
+      "time": 109.21875,
+      "rms40ms": 0.23068203032016754
+    },
+    {
+      "id": "bass-01655",
+      "performer": "bass",
+      "time": 109.6875,
+      "rms40ms": 0.04311579093337059
+    },
+    {
+      "id": "lead-01680",
+      "performer": "lead",
+      "time": 110.15625,
+      "rms40ms": 0.08381981402635574
+    },
+    {
+      "id": "bass-01682",
+      "performer": "bass",
+      "time": 110.625,
+      "rms40ms": 0.050416067242622375
+    },
+    {
+      "id": "drums-01700",
+      "performer": "drums",
+      "time": 111.09375,
+      "rms40ms": 0.23068051040172577
+    },
+    {
+      "id": "bass-01685",
+      "performer": "bass",
+      "time": 111.5625,
+      "rms40ms": 0.07517661899328232
+    },
+    {
+      "id": "rhythm-01694",
+      "performer": "rhythm",
+      "time": 112.03125,
+      "rms40ms": 0.1262952834367752
+    },
+    {
+      "id": "bass-01711",
+      "performer": "bass",
+      "time": 112.5,
+      "rms40ms": 0.05384833738207817
+    },
+    {
+      "id": "drums-01729",
+      "performer": "drums",
+      "time": 112.96875,
+      "rms40ms": 0.22646845877170563
+    },
+    {
+      "id": "bass-01714",
+      "performer": "bass",
+      "time": 113.4375,
+      "rms40ms": 0.04864061251282692
+    },
+    {
+      "id": "lead-01739",
+      "performer": "lead",
+      "time": 113.90625,
+      "rms40ms": 0.08553343266248703
+    },
+    {
+      "id": "bass-01741",
+      "performer": "bass",
+      "time": 114.375,
+      "rms40ms": 0.06296733021736145
+    },
+    {
+      "id": "drums-01759",
+      "performer": "drums",
+      "time": 114.84375,
+      "rms40ms": 0.22646871209144592
+    },
+    {
+      "id": "bass-01744",
+      "performer": "bass",
+      "time": 115.3125,
+      "rms40ms": 0.038972605019807816
+    },
+    {
+      "id": "rhythm-01753",
+      "performer": "rhythm",
+      "time": 115.78125,
+      "rms40ms": 0.11712926626205444
+    },
+    {
+      "id": "bass-01770",
+      "performer": "bass",
+      "time": 116.25,
+      "rms40ms": 0.04793614149093628
+    },
+    {
+      "id": "drums-01788",
+      "performer": "drums",
+      "time": 116.71875,
+      "rms40ms": 0.21757559478282928
+    },
+    {
+      "id": "bass-01773",
+      "performer": "bass",
+      "time": 117.1875,
+      "rms40ms": 0.043129004538059235
+    },
+    {
+      "id": "duet-rhythm-01782",
+      "performer": "rhythm",
+      "time": 117.65625,
+      "rms40ms": 0.1172337681055069
+    },
+    {
+      "id": "lead-01798",
+      "performer": "lead",
+      "time": 117.65625,
+      "rms40ms": 0.08575057983398438
+    },
+    {
+      "id": "bass-01800",
+      "performer": "bass",
+      "time": 118.125,
+      "rms40ms": 0.05983464792370796
+    },
+    {
+      "id": "drums-01818",
+      "performer": "drums",
+      "time": 118.59375,
+      "rms40ms": 0.2175794541835785
+    },
+    {
+      "id": "bass-01803",
+      "performer": "bass",
+      "time": 119.0625,
+      "rms40ms": 0.051633644849061966
+    },
+    {
+      "id": "rhythm-01812",
+      "performer": "rhythm",
+      "time": 119.53125,
+      "rms40ms": 0.13313807547092438
+    }
+  ],
+  "holdTailEnergy": [
+    {
+      "eventId": "rhythm-00036",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.04480154812335968
+    },
+    {
+      "eventId": "lead-00074",
+      "performer": "lead",
+      "rmsLast150ms": 0.02675609104335308
+    },
+    {
+      "eventId": "bass-00099",
+      "performer": "bass",
+      "rmsLast150ms": 0.052080150693655014
+    },
+    {
+      "eventId": "rhythm-00243",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.06898974627256393
+    },
+    {
+      "eventId": "lead-00287",
+      "performer": "lead",
+      "rmsLast150ms": 0.04315846413373947
+    },
+    {
+      "eventId": "bass-00317",
+      "performer": "bass",
+      "rmsLast150ms": 0.05105788633227348
+    },
+    {
+      "eventId": "rhythm-00479",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.0754987895488739
+    },
+    {
+      "eventId": "lead-00524",
+      "performer": "lead",
+      "rmsLast150ms": 0.05679520592093468
+    },
+    {
+      "eventId": "bass-00555",
+      "performer": "bass",
+      "rmsLast150ms": 0.04635176807641983
+    },
+    {
+      "eventId": "rhythm-00719",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.07478164881467819
+    },
+    {
+      "eventId": "lead-00764",
+      "performer": "lead",
+      "rmsLast150ms": 0.06146958842873573
+    },
+    {
+      "eventId": "bass-00795",
+      "performer": "bass",
+      "rmsLast150ms": 0.04546452313661575
+    },
+    {
+      "eventId": "rhythm-00952",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.039908334612846375
+    },
+    {
+      "eventId": "lead-00990",
+      "performer": "lead",
+      "rmsLast150ms": 0.02270408533513546
+    },
+    {
+      "eventId": "bass-01015",
+      "performer": "bass",
+      "rmsLast150ms": 0.04018685221672058
+    },
+    {
+      "eventId": "rhythm-01159",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.07184848934412003
+    },
+    {
+      "eventId": "lead-01203",
+      "performer": "lead",
+      "rmsLast150ms": 0.042837776243686676
+    },
+    {
+      "eventId": "bass-01233",
+      "performer": "bass",
+      "rmsLast150ms": 0.043543122708797455
+    },
+    {
+      "eventId": "rhythm-01395",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.08576469123363495
+    },
+    {
+      "eventId": "lead-01440",
+      "performer": "lead",
+      "rmsLast150ms": 0.05434736981987953
+    },
+    {
+      "eventId": "bass-01471",
+      "performer": "bass",
+      "rmsLast150ms": 0.05013028532266617
+    },
+    {
+      "eventId": "rhythm-01635",
+      "performer": "rhythm",
+      "rmsLast150ms": 0.09046044200658798
+    },
+    {
+      "eventId": "lead-01680",
+      "performer": "lead",
+      "rmsLast150ms": 0.0753689706325531
+    },
+    {
+      "eventId": "bass-01711",
+      "performer": "bass",
+      "rmsLast150ms": 0.05199682340025902
+    }
+  ],
+  "sections": [
+    {
+      "start": 0,
+      "end": 15,
+      "name": "点火 / Ignition",
+      "intent": "Bass-led hook, syncopated palm-muted chord punctuation, sparse melodic answer",
+      "rms": 0.1055380254983902,
+      "peak": 0.6057808995246887
+    },
+    {
+      "start": 15,
+      "end": 30,
+      "name": "铁轨 / Iron Drive",
+      "intent": "Locked kick-bass, double-tracked chugs, offbeat accents and ghost snare",
+      "rms": 0.14714182913303375,
+      "peak": 0.784338653087616
+    },
+    {
+      "start": 30,
+      "end": 45,
+      "name": "回声 / Signal Chorus",
+      "intent": "Open power chords, melodic call-response and wider cymbal movement",
+      "rms": 0.15484027564525604,
+      "peak": 0.7755511999130249
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "name": "裂隙 / Ascending Fault",
+      "intent": "Syncopated riff variation, upper melody answer, drums build into break",
+      "rms": 0.16146135330200195,
+      "peak": 0.8444570302963257
+    },
+    {
+      "start": 60,
+      "end": 75,
+      "name": "重坠 / Half-Time Descent",
+      "intent": "Heavy half-time accents with real empty space, darker bass and low toms",
+      "rms": 0.10803477466106415,
+      "peak": 0.6461116075515747
+    },
+    {
+      "start": 75,
+      "end": 90,
+      "name": "重燃 / Rebuild",
+      "intent": "Rising articulation density, kick doubles, original motif restated",
+      "rms": 0.15077492594718933,
+      "peak": 0.8310482501983643
+    },
+    {
+      "start": 90,
+      "end": 105,
+      "name": "追光 / Lead Flight",
+      "intent": "Lead solo response with harmony, alternate picking and tom/cymbal variety",
+      "rms": 0.18045710027217865,
+      "peak": 0.8743762373924255
+    },
+    {
+      "start": 105,
+      "end": 120,
+      "name": "终章 / Final Signal",
+      "intent": "Full-band riff return, twin lead harmony and transition fill into loop",
+      "rms": 0.18476855754852295,
+      "peak": 0.8709168434143066
+    }
+  ],
+  "humanListeningApproval": false,
+  "scope": "Numeric safety and retained notation evidence. Energy alone is not a perceptual proof that each attack is distinguishable in a full mix.",
+  "scoreRevision": "stone-signal-v4-full-band-20261104",
+  "durationSeconds": 120,
+  "sampleRate": 24000,
+  "framesPerStem": 2880000,
+  "requiredNotes": 256,
+  "requiredNotesPerSecond": 2.1333333333333333,
+  "maximumRequiredNotesInAnyOneSecond": 3,
+  "optionalDuetNotes": 12,
+  "totalChartHeads": 268,
+  "maximumAllHeadsInAnyOneSecond": 4,
+  "sourceOnsetCount": 1788,
+  "holdCount": 24,
+  "assetStats": {
+    "rhythm": {
+      "frames": 2880000,
+      "channels": 2,
+      "sampleRate": 24000,
+      "sha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2",
+      "bytes": 11520044,
+      "rms": 0.06870682537555695,
+      "peak": 0.4323562681674957,
+      "clippedSamples": 0
+    },
+    "bass": {
+      "frames": 2880000,
+      "channels": 2,
+      "sampleRate": 24000,
+      "sha256": "0d5776f2ed96ed166c993d153232a20ecb2d3e3c5e0f0358b9663eb889fbf459",
+      "bytes": 11520044,
+      "rms": 0.04403739050030708,
+      "peak": 0.22259832918643951,
+      "clippedSamples": 0
+    },
+    "drums": {
+      "frames": 2880000,
+      "channels": 2,
+      "sampleRate": 24000,
+      "sha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8",
+      "bytes": 11520044,
+      "rms": 0.12577176094055176,
+      "peak": 0.5787159204483032,
+      "clippedSamples": 0
+    },
+    "lead": {
+      "frames": 2880000,
+      "channels": 2,
+      "sampleRate": 24000,
+      "sha256": "eacca6e8fae7687640a73750c9969473771725bdf1e9e59d889eca13c0e10c08",
+      "bytes": 11520044,
+      "rms": 0.03776232898235321,
+      "peak": 0.27589303255081177,
+      "clippedSamples": 0
+    },
+    "mix": {
+      "frames": 2880000,
+      "channels": 2,
+      "sampleRate": 24000,
+      "sha256": "8aa14d3a26d60e4b778b93f9627c5bd30cceee203ba528c75fd79abbc390fc3b",
+      "bytes": 11520044,
+      "rms": 0.15163403749465942,
+      "peak": 0.8743762373924255,
+      "clippedSamples": 0
+    }
+  },
+  "publicationEvidence": {
+    "date": "2026-11-04",
+    "method": "Original v4 numeric validation retained; compatibility fields derived from unchanged public chart, manifest and hash-verified v4 render evidence. No browser rerun claimed.",
+    "sourceValidation": "output/audio-v4/source-audio-validation.json",
+    "sourceValidationSha256": "56bb021bfa687253cdbc220944439571abfdc5969307e15b86eb048644b33a4d",
+    "renderEvidence": "render_evidence_v4.json",
+    "renderEvidenceSha256": "5af4f3dfb50866616636deaea83722cd7fe9894ccbea73e8707c8f9b57835884"
+  }
+}

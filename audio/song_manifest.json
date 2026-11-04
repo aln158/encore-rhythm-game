@@ -53,6 +53,7 @@
       "channels": 2
     }
   ],
+  "previewMixUrl": "./audio/encore-original-mix.wav",
   "loop": {
     "start": 0,
     "end": 120.0,
@@ -149,6 +150,6 @@
   "scoreRevision": "stone-signal-v4-full-band-20261104",
   "channels": 2,
   "candidateOnly": false,
-  "releaseIdentity": "v0.7.2-public-web",
+  "releaseIdentity": "v0.7.0-elements-preview",
   "arrangementVersion": "4"
 }
