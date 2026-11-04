@@ -1,0 +1,294 @@
+{
+  "schema": "encore-source-matched-optional-duets-v1",
+  "date": "2026-11-02",
+  "songId": "encore-original-metal-v2-holds",
+  "chartId": "encore-original-sparse-v3-optional-duets",
+  "requiredHeadsUnchanged": true,
+  "requiredCount": 256,
+  "optionalCount": 12,
+  "totalCount": 268,
+  "requiredMaximumPerSecond": 3,
+  "includingOptionalMaximumPerSecond": 4,
+  "groupCount": 12,
+  "crossRolePairsWithin35ms": 12,
+  "audioRegenerated": false,
+  "sourceOnsetsSha256": "38ff634e440b7097b461386a8db7adf53d6f6c5e8452d9f4cf3684b8fc5c97a1",
+  "wavSha256": {
+    "encore-original-bass.wav": "0d5776f2ed96ed166c993d153232a20ecb2d3e3c5e0f0358b9663eb889fbf459",
+    "encore-original-drums.wav": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8",
+    "encore-original-lead.wav": "eacca6e8fae7687640a73750c9969473771725bdf1e9e59d889eca13c0e10c08",
+    "encore-original-mix.wav": "8aa14d3a26d60e4b778b93f9627c5bd30cceee203ba528c75fd79abbc390fc3b",
+    "encore-original-rhythm.wav": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2",
+    "intro-ending.wav": "0a5afb6c934a2d58e20fa92f8bc77a982dfbaed10b5432b1a9d53f7dddd23b4d"
+  },
+  "groups": [
+    {
+      "groupId": "duet-00",
+      "time": 15.0,
+      "memberEventIds": [
+        "bass-00200",
+        "duet-drums-00214"
+      ],
+      "memberSourceIds": [
+        "bass-00200",
+        "drums-00214"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-00214",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-01",
+      "time": 30.0,
+      "memberEventIds": [
+        "bass-00436",
+        "duet-drums-00450"
+      ],
+      "memberSourceIds": [
+        "bass-00436",
+        "drums-00450"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-00450",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-02",
+      "time": 45.0,
+      "memberEventIds": [
+        "bass-00676",
+        "duet-drums-00690"
+      ],
+      "memberSourceIds": [
+        "bass-00676",
+        "drums-00690"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-00690",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-03",
+      "time": 57.65625,
+      "memberEventIds": [
+        "lead-00882",
+        "duet-rhythm-00866"
+      ],
+      "memberSourceIds": [
+        "lead-00882",
+        "rhythm-00866"
+      ],
+      "performers": [
+        "lead",
+        "rhythm"
+      ],
+      "optionalEventId": "duet-rhythm-00866",
+      "sourceTechnique": "palm_mute",
+      "sourceDuration": 0.13,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2"
+    },
+    {
+      "groupId": "duet-04",
+      "time": 60.0,
+      "memberEventIds": [
+        "bass-00916",
+        "duet-drums-00927"
+      ],
+      "memberSourceIds": [
+        "bass-00916",
+        "drums-00927"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-00927",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-05",
+      "time": 72.65625,
+      "memberEventIds": [
+        "lead-01088",
+        "duet-rhythm-01074"
+      ],
+      "memberSourceIds": [
+        "lead-01088",
+        "rhythm-01074"
+      ],
+      "performers": [
+        "lead",
+        "rhythm"
+      ],
+      "optionalEventId": "duet-rhythm-01074",
+      "sourceTechnique": "palm_mute",
+      "sourceDuration": 0.13,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2"
+    },
+    {
+      "groupId": "duet-06",
+      "time": 75.0,
+      "memberEventIds": [
+        "bass-01116",
+        "duet-drums-01130"
+      ],
+      "memberSourceIds": [
+        "bass-01116",
+        "drums-01130"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-01130",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-07",
+      "time": 87.65625,
+      "memberEventIds": [
+        "lead-01319",
+        "duet-rhythm-01303"
+      ],
+      "memberSourceIds": [
+        "lead-01319",
+        "rhythm-01303"
+      ],
+      "performers": [
+        "lead",
+        "rhythm"
+      ],
+      "optionalEventId": "duet-rhythm-01303",
+      "sourceTechnique": "palm_mute",
+      "sourceDuration": 0.13,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2"
+    },
+    {
+      "groupId": "duet-08",
+      "time": 90.0,
+      "memberEventIds": [
+        "bass-01352",
+        "duet-drums-01366"
+      ],
+      "memberSourceIds": [
+        "bass-01352",
+        "drums-01366"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-01366",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-09",
+      "time": 102.65625,
+      "memberEventIds": [
+        "lead-01558",
+        "duet-rhythm-01542"
+      ],
+      "memberSourceIds": [
+        "lead-01558",
+        "rhythm-01542"
+      ],
+      "performers": [
+        "lead",
+        "rhythm"
+      ],
+      "optionalEventId": "duet-rhythm-01542",
+      "sourceTechnique": "palm_mute",
+      "sourceDuration": 0.13,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2"
+    },
+    {
+      "groupId": "duet-10",
+      "time": 105.0,
+      "memberEventIds": [
+        "bass-01592",
+        "duet-drums-01606"
+      ],
+      "memberSourceIds": [
+        "bass-01592",
+        "drums-01606"
+      ],
+      "performers": [
+        "bass",
+        "drums"
+      ],
+      "optionalEventId": "duet-drums-01606",
+      "sourceTechnique": "kick",
+      "sourceDuration": 0.11,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8"
+    },
+    {
+      "groupId": "duet-11",
+      "time": 117.65625,
+      "memberEventIds": [
+        "lead-01798",
+        "duet-rhythm-01782"
+      ],
+      "memberSourceIds": [
+        "lead-01798",
+        "rhythm-01782"
+      ],
+      "performers": [
+        "lead",
+        "rhythm"
+      ],
+      "optionalEventId": "duet-rhythm-01782",
+      "sourceTechnique": "palm_mute",
+      "sourceDuration": 0.13,
+      "maximumOnsetSeparationSeconds": 0,
+      "sameRoleHoldConflict": false,
+      "companionStemSha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2"
+    }
+  ],
+  "scoreAudioRegenerated": true,
+  "duetExposureChangedPcm": false,
+  "scoreRevision": "stone-signal-v4-full-band-20261104",
+  "audioRegenerationNote": "Score renderer v3 regenerated timbre at unchanged source onsets. Optional-duet exposure itself never rewrites PCM; audioRegenerated=false refers only to that postprocessor."
+}

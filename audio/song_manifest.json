@@ -1,0 +1,154 @@
+{
+  "id": "encore-original-metal-v2-holds",
+  "title": "STONE / SIGNAL",
+  "artist": "ENCORE original score",
+  "bpm": 128,
+  "beatsPerBar": 4,
+  "bars": 64,
+  "duration": 120.0,
+  "sampleRate": 24000,
+  "stems": [
+    {
+      "performer": "rhythm",
+      "key": "W",
+      "url": "./audio/encore-original-rhythm.wav",
+      "format": "PCM16 WAV stereo",
+      "sampleRate": 24000,
+      "frames": 2880000,
+      "gain": 1,
+      "sha256": "9187aedfc76ea0509c43f7c9cfe8d173e43fc32723b18d69346a1df0821240d2",
+      "channels": 2
+    },
+    {
+      "performer": "bass",
+      "key": "S",
+      "url": "./audio/encore-original-bass.wav",
+      "format": "PCM16 WAV stereo",
+      "sampleRate": 24000,
+      "frames": 2880000,
+      "gain": 1,
+      "sha256": "0d5776f2ed96ed166c993d153232a20ecb2d3e3c5e0f0358b9663eb889fbf459",
+      "channels": 2
+    },
+    {
+      "performer": "drums",
+      "key": "O",
+      "url": "./audio/encore-original-drums.wav",
+      "format": "PCM16 WAV stereo",
+      "sampleRate": 24000,
+      "frames": 2880000,
+      "gain": 1,
+      "sha256": "b7355e8bc68009d5d0ef8ee96e1f182af449ca08d8bf607e28c4a2dd8c7162a8",
+      "channels": 2
+    },
+    {
+      "performer": "lead",
+      "key": "K",
+      "url": "./audio/encore-original-lead.wav",
+      "format": "PCM16 WAV stereo",
+      "sampleRate": 24000,
+      "frames": 2880000,
+      "gain": 1,
+      "sha256": "eacca6e8fae7687640a73750c9969473771725bdf1e9e59d889eca13c0e10c08",
+      "channels": 2
+    }
+  ],
+  "loop": {
+    "start": 0,
+    "end": 120.0,
+    "seamlessByConstruction": true,
+    "chartInstanceIdentity": "loopIndex:event.id"
+  },
+  "joinOrder": [
+    "bass",
+    "drums",
+    "rhythm",
+    "lead"
+  ],
+  "phraseBars": 8,
+  "joinPolicy": "Recruitment menus pause the same audio clock. Parent transport activates buses; musical order independent of elite order.",
+  "phrases": [
+    {
+      "index": 0,
+      "time": 0,
+      "duration": 15,
+      "name": "点火 / Ignition"
+    },
+    {
+      "index": 1,
+      "time": 15,
+      "duration": 15,
+      "name": "铁轨 / Iron Drive"
+    },
+    {
+      "index": 2,
+      "time": 30,
+      "duration": 15,
+      "name": "回声 / Signal Chorus"
+    },
+    {
+      "index": 3,
+      "time": 45,
+      "duration": 15,
+      "name": "裂隙 / Ascending Fault"
+    },
+    {
+      "index": 4,
+      "time": 60,
+      "duration": 15,
+      "name": "重坠 / Half-Time Descent"
+    },
+    {
+      "index": 5,
+      "time": 75,
+      "duration": 15,
+      "name": "重燃 / Rebuild"
+    },
+    {
+      "index": 6,
+      "time": 90,
+      "duration": 15,
+      "name": "追光 / Lead Flight"
+    },
+    {
+      "index": 7,
+      "time": 105,
+      "duration": 15,
+      "name": "终章 / Final Signal"
+    }
+  ],
+  "provenance": {
+    "kind": "original procedural instrumental composition",
+    "generator": "tools/audio/render_full_score_v4.py",
+    "seed": 11202604,
+    "commercialSourceAudioUsed": false,
+    "externalSamplesUsed": false,
+    "modelDownloadUsed": false,
+    "voiceCloningUsed": false,
+    "notMetallicaRecording": true,
+    "usageNote": "Created for this project from original notation and DSP; no third-party recording license is bundled. Not legal clearance for artist branding.",
+    "chartPostprocessor": "tools/audio/add_optional_duets.py",
+    "sourceNotationPreserved": true,
+    "scoreRevision": "stone-signal-v4-full-band-20261104",
+    "archivedPreviousSource": "output/audio-archive/stone-signal-v3-20261104",
+    "renderEvidenceUrl": "./audio/render_evidence_v4.json"
+  },
+  "chart": {
+    "id": "encore-original-sparse-v3-optional-duets",
+    "url": "./audio/chart.json",
+    "requiredHeads": 256,
+    "optionalDuetHeads": 12,
+    "duetEvidenceUrl": "./audio/duet_evidence.json"
+  },
+  "inputMapping": {
+    "rhythm": "W",
+    "bass": "S",
+    "drums": "O",
+    "lead": "K"
+  },
+  "scoreRevision": "stone-signal-v4-full-band-20261104",
+  "channels": 2,
+  "candidateOnly": false,
+  "releaseIdentity": "v0.7.2-public-web",
+  "arrangementVersion": "4"
+}

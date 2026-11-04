@@ -1,0 +1,323 @@
+{
+  "name": "PVFX Foundry Thirteen",
+  "version": "0.10.0",
+  "license": "CC0-1.0 (asset scope in LICENSE.txt)",
+  "source": "https://nerijs.itch.io/pvfx-foundry",
+  "provenance": {
+    "commit": "8eca1a5fd4783c9fc5a50e0775ef95a353214de9",
+    "definition_hash": "sha256:157088ec7236fe36c7fe2c8b6ee84d51b5c2bfc59ad49766ebfab447d028da5a",
+    "pack": "pvfx.foundry-thirteen",
+    "profiles": {
+      "grid": "sha256:df793be26b5292fada086b4af90c4d74a1e4200451c0e79aa6e732a0f5668c6e",
+      "packed": "sha256:c49c0fa5354ddff1f2549c3d389822115a601f7347607c21df26240ba0cafee8"
+    },
+    "ref": "codex/foundry-weekly-2026-09-29",
+    "renderer": "pvfx-render/0.17-dev",
+    "repository": "arcanite24/pixel-vfx-studio",
+    "schema": "pvfx.asset-pack-provenance/0.1",
+    "version": "0.10.0"
+  },
+  "assets": [
+    {
+      "name": "warm-explosion",
+      "file": "warm-explosion.png",
+      "source_path": "effects/warm-explosion/grid/sprite-sheet.png",
+      "sha256": "dee1c564a92054f8765353900a16ba3fe92ea55eb0c8c411331e0152d097e6dc",
+      "bytes": 9000,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 15,
+      "pivot": [
+        48,
+        58
+      ],
+      "markers": [
+        {
+          "id": "marker.contact",
+          "name": "contact",
+          "frame": 0
+        },
+        {
+          "id": "marker.peak",
+          "name": "peak",
+          "frame": 4
+        },
+        {
+          "id": "marker.breakup",
+          "name": "breakup",
+          "frame": 7
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. Runtime uses fixed affine projection for oblique view, shared scale, alpha, and maps frames to actual simulation FX life. Earth begins at contact frame 4."
+    },
+    {
+      "name": "earth-rupture",
+      "file": "earth-rupture.png",
+      "source_path": "effects/earth-rupture/grid/sprite-sheet.png",
+      "sha256": "93b51e1d31823487b063e0902da22734caaac51d68e91d6d6cfc18461297a5c8",
+      "bytes": 16182,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 20,
+      "pivot": [
+        48,
+        71
+      ],
+      "markers": [
+        {
+          "id": "marker.contact",
+          "name": "contact",
+          "frame": 4
+        },
+        {
+          "id": "marker.peak",
+          "name": "peak",
+          "frame": 9
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. Runtime uses fixed affine projection for oblique view, shared scale, alpha, and maps frames to actual simulation FX life. Earth begins at contact frame 4."
+    },
+    {
+      "name": "splash-crown",
+      "file": "splash-crown.png",
+      "source_path": "effects/splash-crown/grid/sprite-sheet.png",
+      "sha256": "34d64d5aca16ed57ef44d6507accdb0005afd6ab51a18135189ae049a5624298",
+      "bytes": 5444,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 14,
+      "pivot": [
+        48,
+        70
+      ],
+      "markers": [
+        {
+          "id": "marker.water-entry",
+          "name": "water-entry",
+          "frame": 1
+        },
+        {
+          "id": "marker.crown-peak",
+          "name": "crown-peak",
+          "frame": 2
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. New small hit/bounce/combo-contact overlay driven only by existing core Fx; original geometry and damage remain authoritative."
+    },
+    {
+      "name": "electric-impact",
+      "file": "electric-impact.png",
+      "source_path": "effects/electric-impact/grid/sprite-sheet.png",
+      "sha256": "738b31bb0237431fa7fc70adb2c1d8dfcb5d39da7a5a19a0fbedc066f51aff8f",
+      "bytes": 8615,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 14,
+      "pivot": [
+        48,
+        54
+      ],
+      "markers": [
+        {
+          "id": "marker.contact",
+          "name": "contact",
+          "frame": 0
+        },
+        {
+          "id": "marker.peak",
+          "name": "peak",
+          "frame": 1
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. New small hit/bounce/combo-contact overlay driven only by existing core Fx; original geometry and damage remain authoritative."
+    },
+    {
+      "name": "solar-shrapnel",
+      "file": "solar-shrapnel.png",
+      "source_path": "effects/solar-shrapnel/grid/sprite-sheet.png",
+      "sha256": "44cf68066822c60078d480b04ab8fa8e6662779cbace4a9a4ba19e8c57a48425",
+      "bytes": 7788,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 14,
+      "pivot": [
+        48,
+        56
+      ],
+      "markers": [
+        {
+          "id": "marker.contact",
+          "name": "contact",
+          "frame": 2
+        },
+        {
+          "id": "marker.peak",
+          "name": "peak",
+          "frame": 3
+        },
+        {
+          "id": "marker.breakup",
+          "name": "breakup",
+          "frame": 6
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. New small hit/bounce/combo-contact overlay driven only by existing core Fx; original geometry and damage remain authoritative."
+    },
+    {
+      "name": "acid-splash",
+      "file": "acid-splash.png",
+      "source_path": "effects/acid-splash/grid/sprite-sheet.png",
+      "sha256": "6698ddf555d7ffd7c865f9219ddc0a69064264ae3abee327e91aa27a4687f4cd",
+      "bytes": 7775,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 14,
+      "pivot": [
+        48,
+        64
+      ],
+      "markers": [
+        {
+          "id": "marker.contact",
+          "name": "contact",
+          "frame": 3
+        },
+        {
+          "id": "marker.peak",
+          "name": "peak",
+          "frame": 6
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. Combo-zone cosmetic overlay only; core geometry, zone life and damage remain authoritative."
+    },
+    {
+      "name": "ember-jet",
+      "file": "ember-jet.png",
+      "source_path": "effects/ember-jet/grid/sprite-sheet.png",
+      "sha256": "df2ee8712efb05467444df52024f9efe1d594667c728e67b18a5c213682b131e",
+      "bytes": 7117,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 14,
+      "pivot": [
+        24,
+        56
+      ],
+      "markers": [
+        {
+          "id": "marker.contact",
+          "name": "ignition",
+          "frame": 1
+        },
+        {
+          "id": "marker.peak",
+          "name": "peak",
+          "frame": 4
+        },
+        {
+          "id": "marker.breakup",
+          "name": "breakup",
+          "frame": 7
+        }
+      ],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. Combo-zone cosmetic overlay only; core geometry, zone life and damage remain authoritative."
+    },
+    {
+      "name": "smoke-puff",
+      "file": "smoke-puff.png",
+      "source_path": "effects/smoke-puff/grid/sprite-sheet.png",
+      "sha256": "ec2a3d38ca82818d772ab5dd05af2da541ad15c6273bbcd977ec2fc9b59e5ad3",
+      "bytes": 5963,
+      "frame_size": [
+        96,
+        96
+      ],
+      "columns": 5,
+      "frames": 14,
+      "pivot": [
+        48,
+        48
+      ],
+      "markers": [],
+      "source_frame_duration_ms": 50,
+      "modifications": "PNG unchanged. Small tinted vapor contact only; alpha at most 0.18, omitted in low mode, never full-screen fog."
+    }
+  ],
+  "excluded": "No editor binaries, projects, ZIPs, full-screen fog or extra shot explosions included.",
+  "elementalOverlayUpdate": {
+    "date": "2026-11-04",
+    "selected": [
+      "splash-crown",
+      "electric-impact",
+      "solar-shrapnel"
+    ],
+    "zipSha256": "e23004af4a583d1c182bae3680468ab69f0e12fb69df2132347b35e80fd332ec",
+    "allSelectedArchiveChecksumsVerified": true,
+    "coreMutation": false,
+    "ordinaryEarth": "Selected D stone ridge remains unchanged; earth-rupture only wall break"
+  },
+  "comboOverlayUpdate": {
+    "date": "2026-11-04",
+    "selected": [
+      "splash-crown",
+      "electric-impact",
+      "solar-shrapnel",
+      "acid-splash",
+      "ember-jet",
+      "smoke-puff",
+      "earth-rupture"
+    ],
+    "zipSha256": "e23004af4a583d1c182bae3680468ab69f0e12fb69df2132347b35e80fd332ec",
+    "allSelectedArchiveChecksumsVerified": true,
+    "combos": [
+      "bass-drums",
+      "bass-rhythm",
+      "drums-rhythm",
+      "drums-lead",
+      "rhythm-lead",
+      "aftershock-loop",
+      "fault-chorus",
+      "spotlight-echo"
+    ],
+    "coreMutation": false,
+    "verifiedAssetCount": 8,
+    "limits": {
+      "total": 48,
+      "ordinary": 16,
+      "comboAndZone": 24,
+      "legacy": 8,
+      "lowTotal": 12,
+      "alphaMax": 0.65,
+      "vaporAlphaMax": 0.18
+    },
+    "ordinaryEarth": "D floor tile geometry unchanged. PVFX earth is a small grey accent only for real BD/aftershock zones and legacy break."
+  }
+}
